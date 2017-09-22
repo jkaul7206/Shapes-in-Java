@@ -19,4 +19,15 @@ public class Rectangle {
         return 2*(length + width);
     }
 
+    public double getLength() {
+
+        return length;
+    }
+
+    public double getWidth() {
+
+        return width;
+    }
+
+
 }
