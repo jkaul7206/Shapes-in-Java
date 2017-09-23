@@ -9,10 +9,12 @@ public class RightTriangle {
     private double adj;
     private double opp;
     
-        public RightTriangle(double a, double b) {
-        
+    public RightTriangle(double a, double b) {
             
+        adj = a;
+        opp = b;
+    }
+    
+    public double calculateHyp()
         
-        }
-
 }
